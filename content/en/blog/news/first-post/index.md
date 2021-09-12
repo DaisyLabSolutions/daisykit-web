@@ -1,46 +1,13 @@
 ---
-date: 2018-10-06
-title: "Easy documentation with Docsy"
-linkTitle: "Announcing Docsy"
-description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
-author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
-resources:
-- src: "**.{png,jpg}"
-  title: "Image #:counter"
-  params:
-    byline: "Photo: Riona MacNamara / CC-BY-CA"
+date: 2021-09-12
+title: "Easy AI Deployment with DaisyKit"
+linkTitle: "We are building DaisyKit"
+description: ""
+author: vietanhdev ([@vietanhdev](https://twitter.com/vietanhdev))
 ---
 
-**This is a typical blog post that includes images.**
+DaisyKit team is developing a high performance SDK for AI with a focus on the ease of deployment on different platforms. The idea is to develop an AI core library in C++ for the best performance, and examples to deploy AI systems easily on mobile (Android, iOS), embedded devices, web browsers and desktop PCs.
 
-The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.
+All contributions from community are welcome. If you'd like to improve any aspect of DaisyKit, open pull requests following [contribution guidelines](https://daisykit.org/docs/contribution-guidelines/) or drop an email to [daisykit.team@gmail.com](mailto:daisykit.team@gmail.com). Thank you very much!
 
-## Including images
-
-Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
-
-{{< imgproc sunset Fill "600x300" >}}
-Fetch and scale an image in the upcoming Hugo 0.43.
-{{< /imgproc >}}
-
-The front matter of this post specifies properties to be assigned to all image resources:
-
-```
-resources:
-- src: "**.{png,jpg}"
-  title: "Image #:counter"
-  params:
-    byline: "Photo: Riona MacNamara / CC-BY-CA"
-```
-
-To include the image in a page, specify its details like this:
-
-```
-{{< imgproc sunset Fill "600x300" >}}
-Fetch and scale an image in the upcoming Hugo 0.43.
-{{< /imgproc >}}
-```
-
-The image will be rendered at the size and byline specified in the front matter.
-
-
+![](daisy.jpg)
