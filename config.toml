@@ -155,16 +155,16 @@ enable = false
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-# [[params.links.user]]
-# 	name = "User mailing list"
-# 	url = "https://example.org/mail"
-# 	icon = "fa fa-envelope"
-#         desc = "Discussion and help from your fellow users"
-# [[params.links.user]]
-# 	name ="Twitter"
-# 	url = "https://example.org/twitter"
-# 	icon = "fab fa-twitter"
-#         desc = "Follow us on Twitter to get the latest news!"
+[[params.links.user]]
+	name = "DaisyKit SDK"
+	url = "https://github.com/VNOpenAI/daisykit"
+	icon = "fa fa-laptop"
+        desc = "Use DaisyKit for Desktop and Embedded."
+[[params.links.user]]
+	name = "DaisyKit Android"
+	url = "https://github.com/VNOpenAI/daisykit-android"
+	icon = "fa fa-mobile"
+        desc = "Use DaisyKit for Android."
 # [[params.links.user]]
 # 	name = "Stack Overflow"
 # 	url = "https://example.org/stack"
