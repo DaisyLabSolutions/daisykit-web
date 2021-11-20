@@ -1,4 +1,4 @@
 
 [submodule "themes/docsy"]
 	path = themes/docsy
-	url = https://github.com/VNOpenAI/docsy-daisykit
+	url = https://github.com/Daisykit-AI/docsy-daisykit
